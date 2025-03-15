@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+       <nav>
+        <ul>
+            <li class="brand"><img width="40" src="./logo.png" alt="Spotify Logo">Spotify</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+       </nav> 
+       <div class="container">
+            <div class="songList">
+                <h1>
+                    Arijit Singh Songs
+                </h1>
+                <div class="songItemContainer">
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="0"></i></span>
+                    </div>
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="1"></i></span>
+                    </div>
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="2"></i></span>
+                    </div>
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="3"></i></span>
+                    </div>
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="4"></i></span>
+                    </div>
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="5"></i></span>
+                    </div>
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="6"></i></span>
+                    </div>
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="7"></i></span>
+                    </div>
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="8"></i></span>
+                    </div>
+                    <div class="songItem">
+                    <img width="30" alt="1">
+                    <span class="songName">Song number 1</span>
+                    <span class="songListPlay"><span>5:43</span><i class="fa-solid fa-play songItemPlay" id="9"></i></span>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <footer>
+        <input type="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icon">
+            <button id="previous"><i class="fa-solid fa-backward-step previous"></i></button>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <button id="next"><i class="fa-solid fa-forward-step next"></i></button> 
+        </div>
+        <div class="songInfo">
+            <img src="./playing.gif" class="gif" width="50" alt="">
+            <span class="songNameChanger"></span>
+        </div>
+       </footer>
+
+    <script src="./formula.js"></script>
+</body>
+</html>
